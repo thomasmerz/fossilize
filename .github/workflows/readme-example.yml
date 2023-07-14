@@ -13,6 +13,6 @@ jobs:
         uses: potatoqualitee/fossilize@v1
         id: backup
         with:
-          server: tech.lgbt
+          server: fulda.social
         env:
           ACCESS_TOKEN: "${{ secrets.ACCESS_TOKEN }}"
